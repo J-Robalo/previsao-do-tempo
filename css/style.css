@@ -24,6 +24,7 @@ body {
   padding: 2rem;
   color: #fdfdfd;
   border-radius: 1rem;
+  max-width: 400px;
 }
 
 /* Form */
@@ -69,4 +70,23 @@ body {
 
 #country {
   height: 15px;
+}
+
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-container #umidity {
+  border-right: 1px solid #fff;
+  margin: 0.6rem;
+  padding: 0.6rem;
 }
